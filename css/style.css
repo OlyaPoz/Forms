@@ -1,0 +1,71 @@
+
+
+.formConteiner {
+  padding: 25px 20px 25px 25px;
+  width: 350px;
+  border: 1px solid gray;
+  background-color: #f2f3f7;
+  color: rgb(151, 146, 146);
+
+}
+
+.header {
+  font-size: 2em;
+  font-weight: 500;
+  color: rgb(107, 103, 103);
+  text-align: center;
+}
+
+.actions {
+  margin: 15px;
+  font-size: 0.9em;
+  
+}
+
+.form {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
+}
+
+.name {
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.name > .formInput {
+  max-width: 42%;
+}
+
+.formInput {
+  margin: 10px 0;
+ padding: 10px;
+}
+
+.formCheckbox {
+margin: 10px;
+}
+
+.text {
+  color: green;
+}
+
+.formBtn {
+  display: inline-block;
+  background-color: green;
+  color: white;
+
+  font-weight: 900;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+
+
